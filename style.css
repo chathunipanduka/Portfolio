@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.about {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+.project-card {
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
